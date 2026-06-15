@@ -68,6 +68,7 @@ The system uses a trained NLP model to analyze text (comments/titles) and classi
 * Model Evaluation
 
 📸 **DVC Pipeline Screenshot:**
+
 <img width="866" height="504" alt="image" src="https://github.com/user-attachments/assets/ac8ecc33-4153-40f6-a717-a243372cbfc0" />
 
 
@@ -82,6 +83,7 @@ MLflow is used for:
 * Storing model artifacts
 
 📸 **MLflow UI Screenshot:**
+
 <img width="1858" height="909" alt="Screenshot 2026-06-14 091432" src="https://github.com/user-attachments/assets/5fa5ad64-aa39-4cde-8a90-b3cef4edaf86" />
 
 
@@ -93,9 +95,15 @@ MLflow is used for:
 
 <img width="816" height="426" alt="Screenshot 2026-06-14 101614" src="https://github.com/user-attachments/assets/a2312395-ac2c-485d-b3a6-c04b61d97fb1" />
 
+---
+
 <img width="1903" height="890" alt="Screenshot 2026-06-14 101402" src="https://github.com/user-attachments/assets/c267864f-248d-47f4-b117-9e3c7cd65d27" />
 
+---
+
 <img width="1879" height="897" alt="Screenshot 2026-06-14 101414" src="https://github.com/user-attachments/assets/8fd3aad3-c1b0-484a-a2c1-9796e8cd0f07" />
+
+---
 
 <img width="1828" height="825" alt="Screenshot 2026-06-14 101427" src="https://github.com/user-attachments/assets/e37109a6-57d1-4f15-b14c-81eb2c4581df" />
 
