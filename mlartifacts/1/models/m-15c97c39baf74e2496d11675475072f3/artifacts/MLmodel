@@ -1,0 +1,714 @@
+artifact_path: mlflow-artifacts:/1/models/m-15c97c39baf74e2496d11675475072f3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.1
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.13.0
+model_id: m-15c97c39baf74e2496d11675475072f3
+model_size_bytes: 4027741
+model_uuid: m-15c97c39baf74e2496d11675475072f3
+prompts: null
+run_id: fc56b631893c4c6396adef3c155b9422
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "000", "required": true}, {"type": "double",
+    "name": "100", "required": true}, {"type": "double", "name": "2002", "required":
+    true}, {"type": "double", "name": "2014", "required": true}, {"type": "double",
+    "name": "2016", "required": true}, {"type": "double", "name": "2018", "required":
+    true}, {"type": "double", "name": "2019", "required": true}, {"type": "double",
+    "name": "500", "required": true}, {"type": "double", "name": "aap", "required":
+    true}, {"type": "double", "name": "able", "required": true}, {"type": "double",
+    "name": "absolutely", "required": true}, {"type": "double", "name": "accept",
+    "required": true}, {"type": "double", "name": "according", "required": true},
+    {"type": "double", "name": "account", "required": true}, {"type": "double", "name":
+    "across", "required": true}, {"type": "double", "name": "act", "required": true},
+    {"type": "double", "name": "action", "required": true}, {"type": "double", "name":
+    "actor", "required": true}, {"type": "double", "name": "actual", "required": true},
+    {"type": "double", "name": "actually", "required": true}, {"type": "double", "name":
+    "add", "required": true}, {"type": "double", "name": "added", "required": true},
+    {"type": "double", "name": "age", "required": true}, {"type": "double", "name":
+    "agenda", "required": true}, {"type": "double", "name": "ago", "required": true},
+    {"type": "double", "name": "agree", "required": true}, {"type": "double", "name":
+    "ahead", "required": true}, {"type": "double", "name": "air", "required": true},
+    {"type": "double", "name": "alliance", "required": true}, {"type": "double", "name":
+    "allowed", "required": true}, {"type": "double", "name": "almost", "required":
+    true}, {"type": "double", "name": "alone", "required": true}, {"type": "double",
+    "name": "along", "required": true}, {"type": "double", "name": "already", "required":
+    true}, {"type": "double", "name": "also", "required": true}, {"type": "double",
+    "name": "alternative", "required": true}, {"type": "double", "name": "although",
+    "required": true}, {"type": "double", "name": "always", "required": true}, {"type":
+    "double", "name": "amazing", "required": true}, {"type": "double", "name": "america",
+    "required": true}, {"type": "double", "name": "american", "required": true}, {"type":
+    "double", "name": "amit", "required": true}, {"type": "double", "name": "amit
+    shah", "required": true}, {"type": "double", "name": "among", "required": true},
+    {"type": "double", "name": "amount", "required": true}, {"type": "double", "name":
+    "android", "required": true}, {"type": "double", "name": "another", "required":
+    true}, {"type": "double", "name": "answer", "required": true}, {"type": "double",
+    "name": "anti", "required": true}, {"type": "double", "name": "anti national",
+    "required": true}, {"type": "double", "name": "anymore", "required": true}, {"type":
+    "double", "name": "anyone", "required": true}, {"type": "double", "name": "anything",
+    "required": true}, {"type": "double", "name": "anyway", "required": true}, {"type":
+    "double", "name": "app", "required": true}, {"type": "double", "name": "area",
+    "required": true}, {"type": "double", "name": "argument", "required": true}, {"type":
+    "double", "name": "army", "required": true}, {"type": "double", "name": "around",
+    "required": true}, {"type": "double", "name": "arrested", "required": true}, {"type":
+    "double", "name": "article", "required": true}, {"type": "double", "name": "as",
+    "required": true}, {"type": "double", "name": "ask", "required": true}, {"type":
+    "double", "name": "asked", "required": true}, {"type": "double", "name": "asking",
+    "required": true}, {"type": "double", "name": "assembly", "required": true}, {"type":
+    "double", "name": "atleast", "required": true}, {"type": "double", "name": "attack",
+    "required": true}, {"type": "double", "name": "attention", "required": true},
+    {"type": "double", "name": "aur", "required": true}, {"type": "double", "name":
+    "average", "required": true}, {"type": "double", "name": "away", "required": true},
+    {"type": "double", "name": "awesome", "required": true}, {"type": "double", "name":
+    "back", "required": true}, {"type": "double", "name": "bad", "required": true},
+    {"type": "double", "name": "ban", "required": true}, {"type": "double", "name":
+    "bank", "required": true}, {"type": "double", "name": "banned", "required": true},
+    {"type": "double", "name": "based", "required": true}, {"type": "double", "name":
+    "basic", "required": true}, {"type": "double", "name": "basically", "required":
+    true}, {"type": "double", "name": "become", "required": true}, {"type": "double",
+    "name": "becoming", "required": true}, {"type": "double", "name": "beef", "required":
+    true}, {"type": "double", "name": "behind", "required": true}, {"type": "double",
+    "name": "belief", "required": true}, {"type": "double", "name": "believe", "required":
+    true}, {"type": "double", "name": "benefit", "required": true}, {"type": "double",
+    "name": "best", "required": true}, {"type": "double", "name": "best overall",
+    "required": true}, {"type": "double", "name": "best overall post", "required":
+    true}, {"type": "double", "name": "best overall submitter", "required": true},
+    {"type": "double", "name": "better", "required": true}, {"type": "double", "name":
+    "beyond", "required": true}, {"type": "double", "name": "bhai", "required": true},
+    {"type": "double", "name": "bhakts", "required": true}, {"type": "double", "name":
+    "bharat", "required": true}, {"type": "double", "name": "bhi", "required": true},
+    {"type": "double", "name": "big", "required": true}, {"type": "double", "name":
+    "biggest", "required": true}, {"type": "double", "name": "bill", "required": true},
+    {"type": "double", "name": "billion", "required": true}, {"type": "double", "name":
+    "bit", "required": true}, {"type": "double", "name": "bjp", "required": true},
+    {"type": "double", "name": "black", "required": true}, {"type": "double", "name":
+    "black money", "required": true}, {"type": "double", "name": "blame", "required":
+    true}, {"type": "double", "name": "block", "required": true}, {"type": "double",
+    "name": "body", "required": true}, {"type": "double", "name": "bollywood", "required":
+    true}, {"type": "double", "name": "bollywood movie", "required": true}, {"type":
+    "double", "name": "bollywood movie good", "required": true}, {"type": "double",
+    "name": "book", "required": true}, {"type": "double", "name": "border", "required":
+    true}, {"type": "double", "name": "bot", "required": true}, {"type": "double",
+    "name": "boy", "required": true}, {"type": "double", "name": "break", "required":
+    true}, {"type": "double", "name": "bring", "required": true}, {"type": "double",
+    "name": "brother", "required": true}, {"type": "double", "name": "brought", "required":
+    true}, {"type": "double", "name": "buddha", "required": true}, {"type": "double",
+    "name": "budget", "required": true}, {"type": "double", "name": "build", "required":
+    true}, {"type": "double", "name": "building", "required": true}, {"type": "double",
+    "name": "bullshit", "required": true}, {"type": "double", "name": "business",
+    "required": true}, {"type": "double", "name": "but", "required": true}, {"type":
+    "double", "name": "but not", "required": true}, {"type": "double", "name": "but
+    still", "required": true}, {"type": "double", "name": "but think", "required":
+    true}, {"type": "double", "name": "buy", "required": true}, {"type": "double",
+    "name": "call", "required": true}, {"type": "double", "name": "called", "required":
+    true}, {"type": "double", "name": "calling", "required": true}, {"type": "double",
+    "name": "came", "required": true}, {"type": "double", "name": "camera", "required":
+    true}, {"type": "double", "name": "camp", "required": true}, {"type": "double",
+    "name": "campaign", "required": true}, {"type": "double", "name": "candidate",
+    "required": true}, {"type": "double", "name": "cannot", "required": true}, {"type":
+    "double", "name": "cant", "required": true}, {"type": "double", "name": "car",
+    "required": true}, {"type": "double", "name": "card", "required": true}, {"type":
+    "double", "name": "care", "required": true}, {"type": "double", "name": "case",
+    "required": true}, {"type": "double", "name": "cash", "required": true}, {"type":
+    "double", "name": "caste", "required": true}, {"type": "double", "name": "cause",
+    "required": true}, {"type": "double", "name": "cell", "required": true}, {"type":
+    "double", "name": "central", "required": true}, {"type": "double", "name": "centre",
+    "required": true}, {"type": "double", "name": "certain", "required": true}, {"type":
+    "double", "name": "chance", "required": true}, {"type": "double", "name": "change",
+    "required": true}, {"type": "double", "name": "changed", "required": true}, {"type":
+    "double", "name": "channel", "required": true}, {"type": "double", "name": "charge",
+    "required": true}, {"type": "double", "name": "che", "required": true}, {"type":
+    "double", "name": "check", "required": true}, {"type": "double", "name": "chief",
+    "required": true}, {"type": "double", "name": "child", "required": true}, {"type":
+    "double", "name": "china", "required": true}, {"type": "double", "name": "choice",
+    "required": true}, {"type": "double", "name": "choose", "required": true}, {"type":
+    "double", "name": "christian", "required": true}, {"type": "double", "name": "chutiya",
+    "required": true}, {"type": "double", "name": "citizen", "required": true}, {"type":
+    "double", "name": "city", "required": true}, {"type": "double", "name": "claim",
+    "required": true}, {"type": "double", "name": "class", "required": true}, {"type":
+    "double", "name": "clean", "required": true}, {"type": "double", "name": "clear",
+    "required": true}, {"type": "double", "name": "clearly", "required": true}, {"type":
+    "double", "name": "close", "required": true}, {"type": "double", "name": "come",
+    "required": true}, {"type": "double", "name": "coming", "required": true}, {"type":
+    "double", "name": "comment", "required": true}, {"type": "double", "name": "common",
+    "required": true}, {"type": "double", "name": "communal", "required": true}, {"type":
+    "double", "name": "community", "required": true}, {"type": "double", "name": "company",
+    "required": true}, {"type": "double", "name": "compared", "required": true}, {"type":
+    "double", "name": "complete", "required": true}, {"type": "double", "name": "completely",
+    "required": true}, {"type": "double", "name": "conference", "required": true},
+    {"type": "double", "name": "congress", "required": true}, {"type": "double", "name":
+    "consider", "required": true}, {"type": "double", "name": "constituency", "required":
+    true}, {"type": "double", "name": "content", "required": true}, {"type": "double",
+    "name": "continue", "required": true}, {"type": "double", "name": "control", "required":
+    true}, {"type": "double", "name": "cool", "required": true}, {"type": "double",
+    "name": "corrupt", "required": true}, {"type": "double", "name": "corruption",
+    "required": true}, {"type": "double", "name": "cost", "required": true}, {"type":
+    "double", "name": "could", "required": true}, {"type": "double", "name": "country",
+    "required": true}, {"type": "double", "name": "couple", "required": true}, {"type":
+    "double", "name": "course", "required": true}, {"type": "double", "name": "court",
+    "required": true}, {"type": "double", "name": "cow", "required": true}, {"type":
+    "double", "name": "create", "required": true}, {"type": "double", "name": "created",
+    "required": true}, {"type": "double", "name": "credit", "required": true}, {"type":
+    "double", "name": "crime", "required": true}, {"type": "double", "name": "criminal",
+    "required": true}, {"type": "double", "name": "criticism", "required": true},
+    {"type": "double", "name": "crore", "required": true}, {"type": "double", "name":
+    "cry", "required": true}, {"type": "double", "name": "culture", "required": true},
+    {"type": "double", "name": "current", "required": true}, {"type": "double", "name":
+    "currently", "required": true}, {"type": "double", "name": "cut", "required":
+    true}, {"type": "double", "name": "damn", "required": true}, {"type": "double",
+    "name": "data", "required": true}, {"type": "double", "name": "day", "required":
+    true}, {"type": "double", "name": "dead", "required": true}, {"type": "double",
+    "name": "deal", "required": true}, {"type": "double", "name": "death", "required":
+    true}, {"type": "double", "name": "debate", "required": true}, {"type": "double",
+    "name": "decade", "required": true}, {"type": "double", "name": "decision", "required":
+    true}, {"type": "double", "name": "definitely", "required": true}, {"type": "double",
+    "name": "delhi", "required": true}, {"type": "double", "name": "democracy", "required":
+    true}, {"type": "double", "name": "demonetization", "required": true}, {"type":
+    "double", "name": "despite", "required": true}, {"type": "double", "name": "detail",
+    "required": true}, {"type": "double", "name": "development", "required": true},
+    {"type": "double", "name": "die", "required": true}, {"type": "double", "name":
+    "died", "required": true}, {"type": "double", "name": "difference", "required":
+    true}, {"type": "double", "name": "different", "required": true}, {"type": "double",
+    "name": "difficult", "required": true}, {"type": "double", "name": "director",
+    "required": true}, {"type": "double", "name": "discussion", "required": true},
+    {"type": "double", "name": "done", "required": true}, {"type": "double", "name":
+    "dont", "required": true}, {"type": "double", "name": "doubt", "required": true},
+    {"type": "double", "name": "dude", "required": true}, {"type": "double", "name":
+    "due", "required": true}, {"type": "double", "name": "earlier", "required": true},
+    {"type": "double", "name": "early", "required": true}, {"type": "double", "name":
+    "easily", "required": true}, {"type": "double", "name": "easy", "required": true},
+    {"type": "double", "name": "eat", "required": true}, {"type": "double", "name":
+    "economic", "required": true}, {"type": "double", "name": "economy", "required":
+    true}, {"type": "double", "name": "edit", "required": true}, {"type": "double",
+    "name": "educated", "required": true}, {"type": "double", "name": "education",
+    "required": true}, {"type": "double", "name": "effect", "required": true}, {"type":
+    "double", "name": "effort", "required": true}, {"type": "double", "name": "ego",
+    "required": true}, {"type": "double", "name": "either", "required": true}, {"type":
+    "double", "name": "elected", "required": true}, {"type": "double", "name": "election",
+    "required": true}, {"type": "double", "name": "else", "required": true}, {"type":
+    "double", "name": "encyclopedia", "required": true}, {"type": "double", "name":
+    "encyclopedia team", "required": true}, {"type": "double", "name": "encyclopedia
+    team reached", "required": true}, {"type": "double", "name": "encyclopedia team
+    sport", "required": true}, {"type": "double", "name": "end", "required": true},
+    {"type": "double", "name": "english", "required": true}, {"type": "double", "name":
+    "enough", "required": true}, {"type": "double", "name": "entire", "required":
+    true}, {"type": "double", "name": "especially", "required": true}, {"type": "double",
+    "name": "etc", "required": true}, {"type": "double", "name": "even", "required":
+    true}, {"type": "double", "name": "even though", "required": true}, {"type": "double",
+    "name": "event", "required": true}, {"type": "double", "name": "ever", "required":
+    true}, {"type": "double", "name": "every", "required": true}, {"type": "double",
+    "name": "everyone", "required": true}, {"type": "double", "name": "everything",
+    "required": true}, {"type": "double", "name": "everywhere", "required": true},
+    {"type": "double", "name": "evidence", "required": true}, {"type": "double", "name":
+    "evil", "required": true}, {"type": "double", "name": "exactly", "required": true},
+    {"type": "double", "name": "example", "required": true}, {"type": "double", "name":
+    "except", "required": true}, {"type": "double", "name": "expect", "required":
+    true}, {"type": "double", "name": "expected", "required": true}, {"type": "double",
+    "name": "experience", "required": true}, {"type": "double", "name": "explain",
+    "required": true}, {"type": "double", "name": "express", "required": true}, {"type":
+    "double", "name": "extremely", "required": true}, {"type": "double", "name": "eye",
+    "required": true}, {"type": "double", "name": "face", "required": true}, {"type":
+    "double", "name": "facebook", "required": true}, {"type": "double", "name": "fact",
+    "required": true}, {"type": "double", "name": "failed", "required": true}, {"type":
+    "double", "name": "fake", "required": true}, {"type": "double", "name": "fall",
+    "required": true}, {"type": "double", "name": "family", "required": true}, {"type":
+    "double", "name": "fan", "required": true}, {"type": "double", "name": "far",
+    "required": true}, {"type": "double", "name": "farmer", "required": true}, {"type":
+    "double", "name": "father", "required": true}, {"type": "double", "name": "fear",
+    "required": true}, {"type": "double", "name": "feel", "required": true}, {"type":
+    "double", "name": "feel like", "required": true}, {"type": "double", "name": "feeling",
+    "required": true}, {"type": "double", "name": "fight", "required": true}, {"type":
+    "double", "name": "fighting", "required": true}, {"type": "double", "name": "figure",
+    "required": true}, {"type": "double", "name": "finally", "required": true}, {"type":
+    "double", "name": "find", "required": true}, {"type": "double", "name": "fine",
+    "required": true}, {"type": "double", "name": "fire", "required": true}, {"type":
+    "double", "name": "first", "required": true}, {"type": "double", "name": "first
+    time", "required": true}, {"type": "double", "name": "five", "required": true},
+    {"type": "double", "name": "flag", "required": true}, {"type": "double", "name":
+    "focus", "required": true}, {"type": "double", "name": "folk", "required": true},
+    {"type": "double", "name": "follow", "required": true}, {"type": "double", "name":
+    "following", "required": true}, {"type": "double", "name": "food", "required":
+    true}, {"type": "double", "name": "force", "required": true}, {"type": "double",
+    "name": "foreign", "required": true}, {"type": "double", "name": "forget", "required":
+    true}, {"type": "double", "name": "form", "required": true}, {"type": "double",
+    "name": "forward", "required": true}, {"type": "double", "name": "found", "required":
+    true}, {"type": "double", "name": "free", "required": true}, {"type": "double",
+    "name": "free encyclopedia", "required": true}, {"type": "double", "name": "free
+    encyclopedia team", "required": true}, {"type": "double", "name": "freedom", "required":
+    true}, {"type": "double", "name": "friend", "required": true}, {"type": "double",
+    "name": "front", "required": true}, {"type": "double", "name": "fuck", "required":
+    true}, {"type": "double", "name": "fucked", "required": true}, {"type": "double",
+    "name": "fucking", "required": true}, {"type": "double", "name": "full", "required":
+    true}, {"type": "double", "name": "fun", "required": true}, {"type": "double",
+    "name": "fund", "required": true}, {"type": "double", "name": "funny", "required":
+    true}, {"type": "double", "name": "future", "required": true}, {"type": "double",
+    "name": "gain", "required": true}, {"type": "double", "name": "game", "required":
+    true}, {"type": "double", "name": "gandhi", "required": true}, {"type": "double",
+    "name": "gave", "required": true}, {"type": "double", "name": "general", "required":
+    true}, {"type": "double", "name": "generation", "required": true}, {"type": "double",
+    "name": "get", "required": true}, {"type": "double", "name": "get upset", "required":
+    true}, {"type": "double", "name": "getting", "required": true}, {"type": "double",
+    "name": "girl", "required": true}, {"type": "double", "name": "give", "required":
+    true}, {"type": "double", "name": "given", "required": true}, {"type": "double",
+    "name": "giving", "required": true}, {"type": "double", "name": "go", "required":
+    true}, {"type": "double", "name": "goal", "required": true}, {"type": "double",
+    "name": "god", "required": true}, {"type": "double", "name": "going", "required":
+    true}, {"type": "double", "name": "gone", "required": true}, {"type": "double",
+    "name": "gonna", "required": true}, {"type": "double", "name": "good", "required":
+    true}, {"type": "double", "name": "good bollywood", "required": true}, {"type":
+    "double", "name": "good bollywood movie", "required": true}, {"type": "double",
+    "name": "good good", "required": true}, {"type": "double", "name": "good good
+    good", "required": true}, {"type": "double", "name": "google", "required": true},
+    {"type": "double", "name": "got", "required": true}, {"type": "double", "name":
+    "government", "required": true}, {"type": "double", "name": "govt", "required":
+    true}, {"type": "double", "name": "great", "required": true}, {"type": "double",
+    "name": "ground", "required": true}, {"type": "double", "name": "group", "required":
+    true}, {"type": "double", "name": "growth", "required": true}, {"type": "double",
+    "name": "gst", "required": true}, {"type": "double", "name": "guess", "required":
+    true}, {"type": "double", "name": "gujarat", "required": true}, {"type": "double",
+    "name": "guy", "required": true}, {"type": "double", "name": "hai", "required":
+    true}, {"type": "double", "name": "hain", "required": true}, {"type": "double",
+    "name": "half", "required": true}, {"type": "double", "name": "hand", "required":
+    true}, {"type": "double", "name": "happen", "required": true}, {"type": "double",
+    "name": "happened", "required": true}, {"type": "double", "name": "happening",
+    "required": true}, {"type": "double", "name": "happens", "required": true}, {"type":
+    "double", "name": "happy", "required": true}, {"type": "double", "name": "hard",
+    "required": true}, {"type": "double", "name": "hate", "required": true}, {"type":
+    "double", "name": "hatred", "required": true}, {"type": "double", "name": "head",
+    "required": true}, {"type": "double", "name": "hear", "required": true}, {"type":
+    "double", "name": "heard", "required": true}, {"type": "double", "name": "heart",
+    "required": true}, {"type": "double", "name": "held", "required": true}, {"type":
+    "double", "name": "hell", "required": true}, {"type": "double", "name": "help",
+    "required": true}, {"type": "double", "name": "hey", "required": true}, {"type":
+    "double", "name": "high", "required": true}, {"type": "double", "name": "higher",
+    "required": true}, {"type": "double", "name": "hindi", "required": true}, {"type":
+    "double", "name": "hindu", "required": true}, {"type": "double", "name": "hinduism",
+    "required": true}, {"type": "double", "name": "hindutva", "required": true}, {"type":
+    "double", "name": "history", "required": true}, {"type": "double", "name": "hit",
+    "required": true}, {"type": "double", "name": "hold", "required": true}, {"type":
+    "double", "name": "holy", "required": true}, {"type": "double", "name": "home",
+    "required": true}, {"type": "double", "name": "honest", "required": true}, {"type":
+    "double", "name": "honestly", "required": true}, {"type": "double", "name": "hope",
+    "required": true}, {"type": "double", "name": "hour", "required": true}, {"type":
+    "double", "name": "house", "required": true}, {"type": "double", "name": "however",
+    "required": true}, {"type": "double", "name": "html", "required": true}, {"type":
+    "double", "name": "huge", "required": true}, {"type": "double", "name": "human",
+    "required": true}, {"type": "double", "name": "iaf", "required": true}, {"type":
+    "double", "name": "idea", "required": true}, {"type": "double", "name": "ideology",
+    "required": true}, {"type": "double", "name": "idiot", "required": true}, {"type":
+    "double", "name": "image", "required": true}, {"type": "double", "name": "imagine",
+    "required": true}, {"type": "double", "name": "important", "required": true},
+    {"type": "double", "name": "inc", "required": true}, {"type": "double", "name":
+    "incident", "required": true}, {"type": "double", "name": "including", "required":
+    true}, {"type": "double", "name": "income", "required": true}, {"type": "double",
+    "name": "increase", "required": true}, {"type": "double", "name": "increased",
+    "required": true}, {"type": "double", "name": "india", "required": true}, {"type":
+    "double", "name": "indian", "required": true}, {"type": "double", "name": "individual",
+    "required": true}, {"type": "double", "name": "industry", "required": true}, {"type":
+    "double", "name": "information", "required": true}, {"type": "double", "name":
+    "instead", "required": true}, {"type": "double", "name": "interest", "required":
+    true}, {"type": "double", "name": "interesting", "required": true}, {"type": "double",
+    "name": "international", "required": true}, {"type": "double", "name": "internet",
+    "required": true}, {"type": "double", "name": "interview", "required": true},
+    {"type": "double", "name": "involved", "required": true}, {"type": "double", "name":
+    "isi", "required": true}, {"type": "double", "name": "islam", "required": true},
+    {"type": "double", "name": "issue", "required": true}, {"type": "double", "name":
+    "item", "required": true}, {"type": "double", "name": "jai", "required": true},
+    {"type": "double", "name": "job", "required": true}, {"type": "double", "name":
+    "join", "required": true}, {"type": "double", "name": "joke", "required": true},
+    {"type": "double", "name": "journalist", "required": true}, {"type": "double",
+    "name": "jpg", "required": true}, {"type": "double", "name": "justice", "required":
+    true}, {"type": "double", "name": "kar", "required": true}, {"type": "double",
+    "name": "karnataka", "required": true}, {"type": "double", "name": "kashmir",
+    "required": true}, {"type": "double", "name": "keep", "required": true}, {"type":
+    "double", "name": "kejriwal", "required": true}, {"type": "double", "name": "kept",
+    "required": true}, {"type": "double", "name": "kerala", "required": true}, {"type":
+    "double", "name": "khan", "required": true}, {"type": "double", "name": "kid",
+    "required": true}, {"type": "double", "name": "kill", "required": true}, {"type":
+    "double", "name": "killed", "required": true}, {"type": "double", "name": "killing",
+    "required": true}, {"type": "double", "name": "kind", "required": true}, {"type":
+    "double", "name": "knew", "required": true}, {"type": "double", "name": "know",
+    "required": true}, {"type": "double", "name": "known", "required": true}, {"type":
+    "double", "name": "kuch", "required": true}, {"type": "double", "name": "kumar",
+    "required": true}, {"type": "double", "name": "kya", "required": true}, {"type":
+    "double", "name": "lack", "required": true}, {"type": "double", "name": "lakh",
+    "required": true}, {"type": "double", "name": "land", "required": true}, {"type":
+    "double", "name": "language", "required": true}, {"type": "double", "name": "large",
+    "required": true}, {"type": "double", "name": "last", "required": true}, {"type":
+    "double", "name": "last year", "required": true}, {"type": "double", "name": "later",
+    "required": true}, {"type": "double", "name": "law", "required": true}, {"type":
+    "double", "name": "lead", "required": true}, {"type": "double", "name": "leader",
+    "required": true}, {"type": "double", "name": "learn", "required": true}, {"type":
+    "double", "name": "least", "required": true}, {"type": "double", "name": "leave",
+    "required": true}, {"type": "double", "name": "led", "required": true}, {"type":
+    "double", "name": "left", "required": true}, {"type": "double", "name": "less",
+    "required": true}, {"type": "double", "name": "let", "required": true}, {"type":
+    "double", "name": "level", "required": true}, {"type": "double", "name": "liberal",
+    "required": true}, {"type": "double", "name": "lie", "required": true}, {"type":
+    "double", "name": "life", "required": true}, {"type": "double", "name": "light",
+    "required": true}, {"type": "double", "name": "like", "required": true}, {"type":
+    "double", "name": "likely", "required": true}, {"type": "double", "name": "line",
+    "required": true}, {"type": "double", "name": "link", "required": true}, {"type":
+    "double", "name": "list", "required": true}, {"type": "double", "name": "literally",
+    "required": true}, {"type": "double", "name": "little", "required": true}, {"type":
+    "double", "name": "live", "required": true}, {"type": "double", "name": "living",
+    "required": true}, {"type": "double", "name": "loan", "required": true}, {"type":
+    "double", "name": "local", "required": true}, {"type": "double", "name": "lol",
+    "required": true}, {"type": "double", "name": "long", "required": true}, {"type":
+    "double", "name": "long time", "required": true}, {"type": "double", "name": "look",
+    "required": true}, {"type": "double", "name": "look like", "required": true},
+    {"type": "double", "name": "looking", "required": true}, {"type": "double", "name":
+    "lose", "required": true}, {"type": "double", "name": "losing", "required": true},
+    {"type": "double", "name": "loss", "required": true}, {"type": "double", "name":
+    "lost", "required": true}, {"type": "double", "name": "lot", "required": true},
+    {"type": "double", "name": "lot lot", "required": true}, {"type": "double", "name":
+    "lot lot lot", "required": true}, {"type": "double", "name": "love", "required":
+    true}, {"type": "double", "name": "low", "required": true}, {"type": "double",
+    "name": "lower", "required": true}, {"type": "double", "name": "made", "required":
+    true}, {"type": "double", "name": "main", "required": true}, {"type": "double",
+    "name": "major", "required": true}, {"type": "double", "name": "majority", "required":
+    true}, {"type": "double", "name": "make", "required": true}, {"type": "double",
+    "name": "making", "required": true}, {"type": "double", "name": "man", "required":
+    true}, {"type": "double", "name": "many", "required": true}, {"type": "double",
+    "name": "many people", "required": true}, {"type": "double", "name": "mark", "required":
+    true}, {"type": "double", "name": "market", "required": true}, {"type": "double",
+    "name": "mass", "required": true}, {"type": "double", "name": "massive", "required":
+    true}, {"type": "double", "name": "match", "required": true}, {"type": "double",
+    "name": "matter", "required": true}, {"type": "double", "name": "may", "required":
+    true}, {"type": "double", "name": "maybe", "required": true}, {"type": "double",
+    "name": "mean", "required": true}, {"type": "double", "name": "medium", "required":
+    true}, {"type": "double", "name": "meeting", "required": true}, {"type": "double",
+    "name": "mein", "required": true}, {"type": "double", "name": "member", "required":
+    true}, {"type": "double", "name": "meme", "required": true}, {"type": "double",
+    "name": "men", "required": true}, {"type": "double", "name": "mention", "required":
+    true}, {"type": "double", "name": "message", "required": true}, {"type": "double",
+    "name": "middle", "required": true}, {"type": "double", "name": "middle class",
+    "required": true}, {"type": "double", "name": "might", "required": true}, {"type":
+    "double", "name": "military", "required": true}, {"type": "double", "name": "million",
+    "required": true}, {"type": "double", "name": "mind", "required": true}, {"type":
+    "double", "name": "minister", "required": true}, {"type": "double", "name": "minority",
+    "required": true}, {"type": "double", "name": "minute", "required": true}, {"type":
+    "double", "name": "mistake", "required": true}, {"type": "double", "name": "mla",
+    "required": true}, {"type": "double", "name": "mod", "required": true}, {"type":
+    "double", "name": "modi", "required": true}, {"type": "double", "name": "modiji",
+    "required": true}, {"type": "double", "name": "moment", "required": true}, {"type":
+    "double", "name": "money", "required": true}, {"type": "double", "name": "month",
+    "required": true}, {"type": "double", "name": "mostly", "required": true}, {"type":
+    "double", "name": "mother", "required": true}, {"type": "double", "name": "move",
+    "required": true}, {"type": "double", "name": "movie", "required": true}, {"type":
+    "double", "name": "movie good", "required": true}, {"type": "double", "name":
+    "movie good bollywood", "required": true}, {"type": "double", "name": "movie movie",
+    "required": true}, {"type": "double", "name": "movie movie movie", "required":
+    true}, {"type": "double", "name": "much", "required": true}, {"type": "double",
+    "name": "mumbai", "required": true}, {"type": "double", "name": "murder", "required":
+    true}, {"type": "double", "name": "muslim", "required": true}, {"type": "double",
+    "name": "must", "required": true}, {"type": "double", "name": "nahi", "required":
+    true}, {"type": "double", "name": "name", "required": true}, {"type": "double",
+    "name": "namo", "required": true}, {"type": "double", "name": "narendra", "required":
+    true}, {"type": "double", "name": "narendra modi", "required": true}, {"type":
+    "double", "name": "narrative", "required": true}, {"type": "double", "name": "nation",
+    "required": true}, {"type": "double", "name": "national", "required": true}, {"type":
+    "double", "name": "nationalism", "required": true}, {"type": "double", "name":
+    "nationalist", "required": true}, {"type": "double", "name": "nda", "required":
+    true}, {"type": "double", "name": "ndtv", "required": true}, {"type": "double",
+    "name": "near", "required": true}, {"type": "double", "name": "need", "required":
+    true}, {"type": "double", "name": "needed", "required": true}, {"type": "double",
+    "name": "negative", "required": true}, {"type": "double", "name": "nehru", "required":
+    true}, {"type": "double", "name": "never", "required": true}, {"type": "double",
+    "name": "new", "required": true}, {"type": "double", "name": "news", "required":
+    true}, {"type": "double", "name": "next", "required": true}, {"type": "double",
+    "name": "nice", "required": true}, {"type": "double", "name": "night", "required":
+    true}, {"type": "double", "name": "nobody", "required": true}, {"type": "double",
+    "name": "non", "required": true}, {"type": "double", "name": "none", "required":
+    true}, {"type": "double", "name": "north", "required": true}, {"type": "double",
+    "name": "not", "required": true}, {"type": "double", "name": "not even", "required":
+    true}, {"type": "double", "name": "not sure", "required": true}, {"type": "double",
+    "name": "note", "required": true}, {"type": "double", "name": "nothing", "required":
+    true}, {"type": "double", "name": "number", "required": true}, {"type": "double",
+    "name": "obama", "required": true}, {"type": "double", "name": "obviously", "required":
+    true}, {"type": "double", "name": "office", "required": true}, {"type": "double",
+    "name": "official", "required": true}, {"type": "double", "name": "often", "required":
+    true}, {"type": "double", "name": "okay", "required": true}, {"type": "double",
+    "name": "old", "required": true}, {"type": "double", "name": "one", "required":
+    true}, {"type": "double", "name": "online", "required": true}, {"type": "double",
+    "name": "open", "required": true}, {"type": "double", "name": "opinion", "required":
+    true}, {"type": "double", "name": "opposition", "required": true}, {"type": "double",
+    "name": "option", "required": true}, {"type": "double", "name": "order", "required":
+    true}, {"type": "double", "name": "original", "required": true}, {"type": "double",
+    "name": "others", "required": true}, {"type": "double", "name": "otherwise", "required":
+    true}, {"type": "double", "name": "outside", "required": true}, {"type": "double",
+    "name": "overall", "required": true}, {"type": "double", "name": "overall post",
+    "required": true}, {"type": "double", "name": "overall post best", "required":
+    true}, {"type": "double", "name": "overall submitter", "required": true}, {"type":
+    "double", "name": "overall submitter best", "required": true}, {"type": "double",
+    "name": "page", "required": true}, {"type": "double", "name": "paid", "required":
+    true}, {"type": "double", "name": "pak", "required": true}, {"type": "double",
+    "name": "pakistan", "required": true}, {"type": "double", "name": "pakistani",
+    "required": true}, {"type": "double", "name": "parent", "required": true}, {"type":
+    "double", "name": "parliament", "required": true}, {"type": "double", "name":
+    "part", "required": true}, {"type": "double", "name": "party", "required": true},
+    {"type": "double", "name": "past", "required": true}, {"type": "double", "name":
+    "pay", "required": true}, {"type": "double", "name": "peace", "required": true},
+    {"type": "double", "name": "people", "required": true}, {"type": "double", "name":
+    "people like", "required": true}, {"type": "double", "name": "per", "required":
+    true}, {"type": "double", "name": "person", "required": true}, {"type": "double",
+    "name": "personal", "required": true}, {"type": "double", "name": "personally",
+    "required": true}, {"type": "double", "name": "phone", "required": true}, {"type":
+    "double", "name": "photo", "required": true}, {"type": "double", "name": "pick",
+    "required": true}, {"type": "double", "name": "picture", "required": true}, {"type":
+    "double", "name": "piece", "required": true}, {"type": "double", "name": "pilot",
+    "required": true}, {"type": "double", "name": "place", "required": true}, {"type":
+    "double", "name": "plan", "required": true}, {"type": "double", "name": "plane",
+    "required": true}, {"type": "double", "name": "play", "required": true}, {"type":
+    "double", "name": "playing", "required": true}, {"type": "double", "name": "please",
+    "required": true}, {"type": "double", "name": "point", "required": true}, {"type":
+    "double", "name": "police", "required": true}, {"type": "double", "name": "policy",
+    "required": true}, {"type": "double", "name": "political", "required": true},
+    {"type": "double", "name": "political party", "required": true}, {"type": "double",
+    "name": "politician", "required": true}, {"type": "double", "name": "politics",
+    "required": true}, {"type": "double", "name": "poll", "required": true}, {"type":
+    "double", "name": "poor", "required": true}, {"type": "double", "name": "popular",
+    "required": true}, {"type": "double", "name": "population", "required": true},
+    {"type": "double", "name": "position", "required": true}, {"type": "double", "name":
+    "possible", "required": true}, {"type": "double", "name": "post", "required":
+    true}, {"type": "double", "name": "post best", "required": true}, {"type": "double",
+    "name": "post best overall", "required": true}, {"type": "double", "name": "posted",
+    "required": true}, {"type": "double", "name": "power", "required": true}, {"type":
+    "double", "name": "ppr", "required": true}, {"type": "double", "name": "practice",
+    "required": true}, {"type": "double", "name": "present", "required": true}, {"type":
+    "double", "name": "president", "required": true}, {"type": "double", "name": "press",
+    "required": true}, {"type": "double", "name": "pretty", "required": true}, {"type":
+    "double", "name": "previous", "required": true}, {"type": "double", "name": "price",
+    "required": true}, {"type": "double", "name": "prime", "required": true}, {"type":
+    "double", "name": "prime minister", "required": true}, {"type": "double", "name":
+    "private", "required": true}, {"type": "double", "name": "pro", "required": true},
+    {"type": "double", "name": "probably", "required": true}, {"type": "double", "name":
+    "problem", "required": true}, {"type": "double", "name": "process", "required":
+    true}, {"type": "double", "name": "project", "required": true}, {"type": "double",
+    "name": "promise", "required": true}, {"type": "double", "name": "proof", "required":
+    true}, {"type": "double", "name": "propaganda", "required": true}, {"type": "double",
+    "name": "protest", "required": true}, {"type": "double", "name": "proud", "required":
+    true}, {"type": "double", "name": "provide", "required": true}, {"type": "double",
+    "name": "public", "required": true}, {"type": "double", "name": "punjab", "required":
+    true}, {"type": "double", "name": "pure", "required": true}, {"type": "double",
+    "name": "put", "required": true}, {"type": "double", "name": "quality", "required":
+    true}, {"type": "double", "name": "question", "required": true}, {"type": "double",
+    "name": "quite", "required": true}, {"type": "double", "name": "rahul", "required":
+    true}, {"type": "double", "name": "rahul gandhi", "required": true}, {"type":
+    "double", "name": "rajasthan", "required": true}, {"type": "double", "name": "ram",
+    "required": true}, {"type": "double", "name": "randia", "required": true}, {"type":
+    "double", "name": "rape", "required": true}, {"type": "double", "name": "rate",
+    "required": true}, {"type": "double", "name": "rather", "required": true}, {"type":
+    "double", "name": "reach", "required": true}, {"type": "double", "name": "reached",
+    "required": true}, {"type": "double", "name": "reached free", "required": true},
+    {"type": "double", "name": "reached free encyclopedia", "required": true}, {"type":
+    "double", "name": "read", "required": true}, {"type": "double", "name": "reading",
+    "required": true}, {"type": "double", "name": "ready", "required": true}, {"type":
+    "double", "name": "real", "required": true}, {"type": "double", "name": "reality",
+    "required": true}, {"type": "double", "name": "realize", "required": true}, {"type":
+    "double", "name": "really", "required": true}, {"type": "double", "name": "reason",
+    "required": true}, {"type": "double", "name": "recent", "required": true}, {"type":
+    "double", "name": "recently", "required": true}, {"type": "double", "name": "record",
+    "required": true}, {"type": "double", "name": "reddit", "required": true}, {"type":
+    "double", "name": "reform", "required": true}, {"type": "double", "name": "regarding",
+    "required": true}, {"type": "double", "name": "regular", "required": true}, {"type":
+    "double", "name": "related", "required": true}, {"type": "double", "name": "release",
+    "required": true}, {"type": "double", "name": "religion", "required": true}, {"type":
+    "double", "name": "religious", "required": true}, {"type": "double", "name": "remember",
+    "required": true}, {"type": "double", "name": "remove", "required": true}, {"type":
+    "double", "name": "reply", "required": true}, {"type": "double", "name": "report",
+    "required": true}, {"type": "double", "name": "respect", "required": true}, {"type":
+    "double", "name": "response", "required": true}, {"type": "double", "name": "responsible",
+    "required": true}, {"type": "double", "name": "rest", "required": true}, {"type":
+    "double", "name": "result", "required": true}, {"type": "double", "name": "rich",
+    "required": true}, {"type": "double", "name": "right", "required": true}, {"type":
+    "double", "name": "right wing", "required": true}, {"type": "double", "name":
+    "riot", "required": true}, {"type": "double", "name": "rise", "required": true},
+    {"type": "double", "name": "road", "required": true}, {"type": "double", "name":
+    "role", "required": true}, {"type": "double", "name": "rss", "required": true},
+    {"type": "double", "name": "rule", "required": true}, {"type": "double", "name":
+    "ruling", "required": true}, {"type": "double", "name": "run", "required": true},
+    {"type": "double", "name": "running", "required": true}, {"type": "double", "name":
+    "rupee", "required": true}, {"type": "double", "name": "sabha", "required": true},
+    {"type": "double", "name": "sad", "required": true}, {"type": "double", "name":
+    "said", "required": true}, {"type": "double", "name": "save", "required": true},
+    {"type": "double", "name": "saw", "required": true}, {"type": "double", "name":
+    "say", "required": true}, {"type": "double", "name": "saying", "required": true},
+    {"type": "double", "name": "scam", "required": true}, {"type": "double", "name":
+    "scheme", "required": true}, {"type": "double", "name": "school", "required":
+    true}, {"type": "double", "name": "search", "required": true}, {"type": "double",
+    "name": "seat", "required": true}, {"type": "double", "name": "second", "required":
+    true}, {"type": "double", "name": "section", "required": true}, {"type": "double",
+    "name": "sector", "required": true}, {"type": "double", "name": "secular", "required":
+    true}, {"type": "double", "name": "security", "required": true}, {"type": "double",
+    "name": "see", "required": true}, {"type": "double", "name": "seeing", "required":
+    true}, {"type": "double", "name": "seem", "required": true}, {"type": "double",
+    "name": "seems", "required": true}, {"type": "double", "name": "seen", "required":
+    true}, {"type": "double", "name": "self", "required": true}, {"type": "double",
+    "name": "send", "required": true}, {"type": "double", "name": "sense", "required":
+    true}, {"type": "double", "name": "serious", "required": true}, {"type": "double",
+    "name": "seriously", "required": true}, {"type": "double", "name": "service",
+    "required": true}, {"type": "double", "name": "set", "required": true}, {"type":
+    "double", "name": "several", "required": true}, {"type": "double", "name": "shah",
+    "required": true}, {"type": "double", "name": "share", "required": true}, {"type":
+    "double", "name": "shit", "required": true}, {"type": "double", "name": "short",
+    "required": true}, {"type": "double", "name": "shot", "required": true}, {"type":
+    "double", "name": "show", "required": true}, {"type": "double", "name": "showing",
+    "required": true}, {"type": "double", "name": "side", "required": true}, {"type":
+    "double", "name": "similar", "required": true}, {"type": "double", "name": "simple",
+    "required": true}, {"type": "double", "name": "simply", "required": true}, {"type":
+    "double", "name": "since", "required": true}, {"type": "double", "name": "singh",
+    "required": true}, {"type": "double", "name": "single", "required": true}, {"type":
+    "double", "name": "site", "required": true}, {"type": "double", "name": "situation",
+    "required": true}, {"type": "double", "name": "small", "required": true}, {"type":
+    "double", "name": "social", "required": true}, {"type": "double", "name": "social
+    medium", "required": true}, {"type": "double", "name": "society", "required":
+    true}, {"type": "double", "name": "solution", "required": true}, {"type": "double",
+    "name": "someone", "required": true}, {"type": "double", "name": "something",
+    "required": true}, {"type": "double", "name": "sometimes", "required": true},
+    {"type": "double", "name": "son", "required": true}, {"type": "double", "name":
+    "sono", "required": true}, {"type": "double", "name": "soon", "required": true},
+    {"type": "double", "name": "sorry", "required": true}, {"type": "double", "name":
+    "sort", "required": true}, {"type": "double", "name": "sound", "required": true},
+    {"type": "double", "name": "source", "required": true}, {"type": "double", "name":
+    "south", "required": true}, {"type": "double", "name": "space", "required": true},
+    {"type": "double", "name": "speak", "required": true}, {"type": "double", "name":
+    "speaking", "required": true}, {"type": "double", "name": "special", "required":
+    true}, {"type": "double", "name": "speech", "required": true}, {"type": "double",
+    "name": "spent", "required": true}, {"type": "double", "name": "sport", "required":
+    true}, {"type": "double", "name": "stand", "required": true}, {"type": "double",
+    "name": "standard", "required": true}, {"type": "double", "name": "start", "required":
+    true}, {"type": "double", "name": "started", "required": true}, {"type": "double",
+    "name": "starting", "required": true}, {"type": "double", "name": "state", "required":
+    true}, {"type": "double", "name": "statement", "required": true}, {"type": "double",
+    "name": "statue", "required": true}, {"type": "double", "name": "stay", "required":
+    true}, {"type": "double", "name": "step", "required": true}, {"type": "double",
+    "name": "still", "required": true}, {"type": "double", "name": "stop", "required":
+    true}, {"type": "double", "name": "story", "required": true}, {"type": "double",
+    "name": "strategy", "required": true}, {"type": "double", "name": "strike", "required":
+    true}, {"type": "double", "name": "strong", "required": true}, {"type": "double",
+    "name": "student", "required": true}, {"type": "double", "name": "stuff", "required":
+    true}, {"type": "double", "name": "stupid", "required": true}, {"type": "double",
+    "name": "sub", "required": true}, {"type": "double", "name": "submitter", "required":
+    true}, {"type": "double", "name": "submitter best", "required": true}, {"type":
+    "double", "name": "submitter best overall", "required": true}, {"type": "double",
+    "name": "suggestion", "required": true}, {"type": "double", "name": "super", "required":
+    true}, {"type": "double", "name": "support", "required": true}, {"type": "double",
+    "name": "supporter", "required": true}, {"type": "double", "name": "supporting",
+    "required": true}, {"type": "double", "name": "supposed", "required": true}, {"type":
+    "double", "name": "supreme", "required": true}, {"type": "double", "name": "sure",
+    "required": true}, {"type": "double", "name": "surprised", "required": true},
+    {"type": "double", "name": "system", "required": true}, {"type": "double", "name":
+    "take", "required": true}, {"type": "double", "name": "taken", "required": true},
+    {"type": "double", "name": "taking", "required": true}, {"type": "double", "name":
+    "talk", "required": true}, {"type": "double", "name": "talking", "required": true},
+    {"type": "double", "name": "tamil", "required": true}, {"type": "double", "name":
+    "target", "required": true}, {"type": "double", "name": "tax", "required": true},
+    {"type": "double", "name": "team", "required": true}, {"type": "double", "name":
+    "team reached", "required": true}, {"type": "double", "name": "team reached free",
+    "required": true}, {"type": "double", "name": "team sport", "required": true},
+    {"type": "double", "name": "technology", "required": true}, {"type": "double",
+    "name": "tell", "required": true}, {"type": "double", "name": "temple", "required":
+    true}, {"type": "double", "name": "term", "required": true}, {"type": "double",
+    "name": "terror", "required": true}, {"type": "double", "name": "terrorism", "required":
+    true}, {"type": "double", "name": "terrorist", "required": true}, {"type": "double",
+    "name": "text", "required": true}, {"type": "double", "name": "thank", "required":
+    true}, {"type": "double", "name": "thanks", "required": true}, {"type": "double",
+    "name": "thats", "required": true}, {"type": "double", "name": "thing", "required":
+    true}, {"type": "double", "name": "thing thing", "required": true}, {"type": "double",
+    "name": "thing thing thing", "required": true}, {"type": "double", "name": "think",
+    "required": true}, {"type": "double", "name": "thinking", "required": true}, {"type":
+    "double", "name": "though", "required": true}, {"type": "double", "name": "thought",
+    "required": true}, {"type": "double", "name": "thousand", "required": true}, {"type":
+    "double", "name": "thread", "required": true}, {"type": "double", "name": "three",
+    "required": true}, {"type": "double", "name": "till", "required": true}, {"type":
+    "double", "name": "time", "required": true}, {"type": "double", "name": "today",
+    "required": true}, {"type": "double", "name": "together", "required": true}, {"type":
+    "double", "name": "toh", "required": true}, {"type": "double", "name": "told",
+    "required": true}, {"type": "double", "name": "took", "required": true}, {"type":
+    "double", "name": "top", "required": true}, {"type": "double", "name": "topic",
+    "required": true}, {"type": "double", "name": "total", "required": true}, {"type":
+    "double", "name": "totally", "required": true}, {"type": "double", "name": "towards",
+    "required": true}, {"type": "double", "name": "train", "required": true}, {"type":
+    "double", "name": "tried", "required": true}, {"type": "double", "name": "troll",
+    "required": true}, {"type": "double", "name": "true", "required": true}, {"type":
+    "double", "name": "trump", "required": true}, {"type": "double", "name": "trust",
+    "required": true}, {"type": "double", "name": "truth", "required": true}, {"type":
+    "double", "name": "try", "required": true}, {"type": "double", "name": "trying",
+    "required": true}, {"type": "double", "name": "turn", "required": true}, {"type":
+    "double", "name": "turned", "required": true}, {"type": "double", "name": "tweet",
+    "required": true}, {"type": "double", "name": "twitter", "required": true}, {"type":
+    "double", "name": "two", "required": true}, {"type": "double", "name": "type",
+    "required": true}, {"type": "double", "name": "understand", "required": true},
+    {"type": "double", "name": "unless", "required": true}, {"type": "double", "name":
+    "upa", "required": true}, {"type": "double", "name": "upset", "required": true},
+    {"type": "double", "name": "usa", "required": true}, {"type": "double", "name":
+    "use", "required": true}, {"type": "double", "name": "used", "required": true},
+    {"type": "double", "name": "user", "required": true}, {"type": "double", "name":
+    "using", "required": true}, {"type": "double", "name": "value", "required": true},
+    {"type": "double", "name": "version", "required": true}, {"type": "double", "name":
+    "victim", "required": true}, {"type": "double", "name": "video", "required": true},
+    {"type": "double", "name": "view", "required": true}, {"type": "double", "name":
+    "village", "required": true}, {"type": "double", "name": "violence", "required":
+    true}, {"type": "double", "name": "visit", "required": true}, {"type": "double",
+    "name": "voice", "required": true}, {"type": "double", "name": "vote", "required":
+    true}, {"type": "double", "name": "vote bjp", "required": true}, {"type": "double",
+    "name": "voted", "required": true}, {"type": "double", "name": "voter", "required":
+    true}, {"type": "double", "name": "voting", "required": true}, {"type": "double",
+    "name": "wait", "required": true}, {"type": "double", "name": "want", "required":
+    true}, {"type": "double", "name": "wanted", "required": true}, {"type": "double",
+    "name": "war", "required": true}, {"type": "double", "name": "watch", "required":
+    true}, {"type": "double", "name": "watching", "required": true}, {"type": "double",
+    "name": "water", "required": true}, {"type": "double", "name": "way", "required":
+    true}, {"type": "double", "name": "way get", "required": true}, {"type": "double",
+    "name": "website", "required": true}, {"type": "double", "name": "week", "required":
+    true}, {"type": "double", "name": "well", "required": true}, {"type": "double",
+    "name": "went", "required": true}, {"type": "double", "name": "west", "required":
+    true}, {"type": "double", "name": "western", "required": true}, {"type": "double",
+    "name": "whatever", "required": true}, {"type": "double", "name": "whatsapp",
+    "required": true}, {"type": "double", "name": "whether", "required": true}, {"type":
+    "double", "name": "white", "required": true}, {"type": "double", "name": "whole",
+    "required": true}, {"type": "double", "name": "wife", "required": true}, {"type":
+    "double", "name": "win", "required": true}, {"type": "double", "name": "wing",
+    "required": true}, {"type": "double", "name": "winning", "required": true}, {"type":
+    "double", "name": "wish", "required": true}, {"type": "double", "name": "within",
+    "required": true}, {"type": "double", "name": "without", "required": true}, {"type":
+    "double", "name": "woman", "required": true}, {"type": "double", "name": "wonder",
+    "required": true}, {"type": "double", "name": "word", "required": true}, {"type":
+    "double", "name": "work", "required": true}, {"type": "double", "name": "worker",
+    "required": true}, {"type": "double", "name": "working", "required": true}, {"type":
+    "double", "name": "world", "required": true}, {"type": "double", "name": "worse",
+    "required": true}, {"type": "double", "name": "worst", "required": true}, {"type":
+    "double", "name": "worth", "required": true}, {"type": "double", "name": "would",
+    "required": true}, {"type": "double", "name": "wow", "required": true}, {"type":
+    "double", "name": "write", "required": true}, {"type": "double", "name": "written",
+    "required": true}, {"type": "double", "name": "wrong", "required": true}, {"type":
+    "double", "name": "wtf", "required": true}, {"type": "double", "name": "yeah",
+    "required": true}, {"type": "double", "name": "year", "required": true}, {"type":
+    "double", "name": "year old", "required": true}, {"type": "double", "name": "yes",
+    "required": true}, {"type": "double", "name": "yesterday", "required": true},
+    {"type": "double", "name": "yet", "required": true}, {"type": "double", "name":
+    "yogi", "required": true}, {"type": "double", "name": "young", "required": true},
+    {"type": "double", "name": "youth", "required": true}, {"type": "double", "name":
+    "youtube", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-06-14 03:36:36.503052'
